@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Module-solution4",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3004",
+      "sourceMaps": true,
+      "webRoot": "${workspaceRoot}/module4-solution"
+      // "runtimeArgs": [
+      //   "--new-window",
+      //   "--user-data-dir=/Users/del/tmp/chromeData",
+      //   "--remote-debugging-port=9222"
+      // ]
+    }
+  ]
+}
