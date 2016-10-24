@@ -8,12 +8,16 @@ body {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-section > p {
+section {
   border: 1px solid black;
-  margin: 45px 10px 10px 10px;
+  margin: 10px;
   background-color: lightslategrey;
   overflow: auto;
   position: relative;
+}
+
+section > p {
+  margin: 45px 10px 10px 10px;
 }
 
 .main-title {
