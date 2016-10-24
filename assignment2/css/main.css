@@ -2,38 +2,44 @@
 * {
   box-sizing: border-box;
 }
-h1 {
-  margin-bottom: 15px;
-}
 
 body {
-  margin: 0px;
+  margin: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 section {
   border: 1px solid black;
-  margin: 0px 10px 10px 10px;
-  padding: 0px 10px 10px 10px;
-  font-family: Helvetica;
-}
-
-section.grey {
+  margin: 10px;
   background-color: lightslategrey;
+  overflow: auto;
+  position: relative;
 }
 
-section.green {
-  background-color: lightgreen;
+section > p {
+  margin: 45px 10px 10px 10px;
 }
 
-section.blue {
-  background-color: lightblue;
+.main-title {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.75em;
 }
 
 .title {
-  float: right;
-  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100px;
   width: 33%;
+  height: 38px;
+  padding: 5px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 1.25em;
   text-align: center;
+  letter-spacing: 0.75px;
 }
 
 .pink {
@@ -41,13 +47,10 @@ section.blue {
 }
 .indianred {
   background-color: indianred;
+  color: white;
 }
 .sandy {
   background-color: sandybrown;
-}
-
-.main-title {
-  text-align: center;
 }
 
 /* Simple Responsive Framework. */
