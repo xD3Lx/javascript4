@@ -10,8 +10,11 @@ body {
 #header-nav {
   border: 0;
   border-radius: 0;
-  min-height: 70px;
   background-color: slategrey;
+}
+
+.navbar-header {
+  min-height: 70px;
 }
 
 .navbar-header button.navbar-toggle {
