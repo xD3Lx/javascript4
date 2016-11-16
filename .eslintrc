@@ -2,11 +2,17 @@
     "extends": "google",
 
     "globals": {
-        "angular" : false
+        "angular": false
     },
 
     "rules": {
         "require-jsdoc": 0,
-        "max-len": [1, 120, 4, {"ignoreComments": true}]
+        "max-len": [1, 120, 4, {
+            "ignoreComments": true
+        }]
+    },
+
+    "env": {
+        "browser": true
     }
 }
