@@ -2,17 +2,21 @@
     "extends": "google",
 
     "globals": {
-        "angular": false
+        "angular": false,
+        "$ajaxUtils": true,
+        "ActiveXObject": true
     },
 
     "rules": {
         "require-jsdoc": 0,
         "max-len": [1, 120, 4, {
             "ignoreComments": true
-        }]
+        }],
+        "no-warning-comments": "off"
     },
 
     "env": {
-        "browser": true
+        "browser": true,
+        "jquery": true
     }
 }
